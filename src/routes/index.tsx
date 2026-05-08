@@ -37,9 +37,10 @@ function Index() {
       className="relative min-h-screen w-full overflow-hidden font-body"
       style={{ backgroundColor: "#FFFFFF" }}
     >
-      <HeroVideo />
+      <div className="relative min-h-screen flex flex-col">
+        <HeroVideo />
 
-      <nav className="relative z-10">
+        <nav className="relative z-10">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-6">
           <a
             href="/"
@@ -70,8 +71,7 @@ function Index() {
       </nav>
 
       <section
-        className="relative z-10 flex flex-col items-center justify-center text-center px-6 pb-40"
-        style={{ paddingTop: "calc(8rem - 75px)" }}
+        className="relative z-10 flex flex-col items-center justify-center text-center px-6 flex-1"
       >
         <h1
           className="font-display font-normal text-5xl sm:text-7xl md:text-8xl max-w-7xl animate-fade-rise"
@@ -102,6 +102,7 @@ function Index() {
           Begin Journey
         </button>
       </section>
+      </div>
 
       <ServicesSection />
       <FeaturedWork />
