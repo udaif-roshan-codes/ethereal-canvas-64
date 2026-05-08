@@ -1,5 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { HeroVideo } from "@/components/HeroVideo";
+import { ServicesSection } from "@/components/ServicesSection";
+import { FeaturedWork } from "@/components/FeaturedWork";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { PhilosophySection } from "@/components/PhilosophySection";
+import { CTASection } from "@/components/CTASection";
+import { Footer } from "@/components/Footer";
 import "@/styles/fonts.css";
 import "@/styles/theme.css";
 
@@ -96,6 +102,13 @@ function Index() {
           Begin Journey
         </button>
       </section>
+
+      <ServicesSection />
+      <FeaturedWork />
+      <TestimonialSection />
+      <PhilosophySection />
+      <CTASection />
+      <Footer />
     </div>
   );
 }
