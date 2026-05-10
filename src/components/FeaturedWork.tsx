@@ -7,21 +7,21 @@ const projects = [
     title: "Lumina Studio",
     category: "Brand Identity & Web",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=800&fit=crop&q=80",
+    image: "/images/lumina-studio.jpg",
   },
   {
     id: 2,
     title: "Meridian Labs",
     category: "Product Design",
     year: "2024",
-    image: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=1200&h=800&fit=crop&q=80",
+    image: "/images/meridian-labs.jpg",
   },
   {
     id: 3,
     title: "Cascade Health",
     category: "Digital Platform",
     year: "2023",
-    image: "https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6?w=1200&h=800&fit=crop&q=80",
+    image: "/images/cascade-health.jpg",
   },
 ];
 
